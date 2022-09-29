@@ -140,10 +140,11 @@ font-size: 16px;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .galery-item-img:hover{
- background-size: 120%;
+ scale: 1.1;
 }
 .innovations-item{
  width: 22%;
@@ -156,6 +157,10 @@ font-size: 16px;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  transition: 0.5s;
+}
+.innovations-item-img:hover{
+scale: 1.1;
 }
 .writing{
   height: 40px;
